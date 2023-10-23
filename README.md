@@ -28,7 +28,7 @@ The Agent uses two Langchain agents:
 
 ## Examples
 ### Example 1
-![WNA_AI_Chatbot_Example_1.gif](WNA_AI_Chatbot_Example_1.gif)
+
 **Assistant:** How can I help you?
 
 **User:** What news was there last week?
@@ -47,7 +47,7 @@ Here are some of the nuclear-related news from last week:
 Please note that the summaries are directly quoted from the articles
 
 ### Example 2
-![WNA_AI_Chatbot_Example_2.gif](WNA_AI_Chatbot_Example_2.gif)
+
 **Assistant:** How can I help you?
 
 **User:** Make a search on the World Nuclear News for new reactor technology for this year and then last year. Use the results to give an analysis of how it has changed. I only want your analysis. Use statistics and facts from your searches to back the points in your analysis. Your response must be three paragraphs long and provide links to sources.
