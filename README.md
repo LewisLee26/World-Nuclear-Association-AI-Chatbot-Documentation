@@ -29,7 +29,7 @@ The Agent uses two Langchain agents:
 ## Examples
 ### Example 1
 
-https://github.com/LewisLee26/World-Nuclear-Association-AI-Chatbot-Documentation/assets/105315997/90b8eca3-2c73-42f1-80e9-e1e780e2f07b
+https://github.com/LewisLee26/World-Nuclear-Association-AI-Chatbot-Documentation/assets/105315997/39f658e1-85dc-4e6b-a28a-17621fe6b5de
 
 **Assistant:** How can I help you?
 
@@ -50,7 +50,7 @@ Please note that the summaries are directly quoted from the articles
 
 ### Example 2
 
-https://github.com/LewisLee26/World-Nuclear-Association-AI-Chatbot-Documentation/assets/105315997/5e7c6d04-3326-4e38-bf2d-9d6cc0560a30
+https://github.com/LewisLee26/World-Nuclear-Association-AI-Chatbot-Documentation/assets/105315997/d87f03ab-0f7e-4e6a-9016-0b984dbccf17
 
 **Assistant:** How can I help you?
 
