@@ -13,4 +13,4 @@
 
 ## Examples
 
-![WNA AI Chatbot Example 2](WNA AI Chatbot Example 2.gif)
+![WNA AI Chatbot Example 2.gif]
