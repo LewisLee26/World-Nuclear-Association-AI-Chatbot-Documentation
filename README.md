@@ -3,8 +3,6 @@
 
 World Nuclear Association AI Chatbot is able to have conversations about nuclear energy and the nuclear energy industry. It stays up to date and accurate by drawing from the World Nuclear Association's articles, reports and databases. World Nuclear Association AI Chatbot allows users to quickly find information, help users better understand complex nuclear energy related topics, and access information across mutliple different formats. 
 
-Please see the full report here.
-
 ## Methodology
 ### Overview
 World Nuclear Association AI Chatbot uses a Large Language Model Autonomous Agent with Retrival Augmented Generation. The system is able to decide whether a search is needed, what source is best suited and the required search parameters. 
@@ -16,15 +14,15 @@ The system has access to four sources:
 - [World Nuclear Association's Reports and Publications](https://www.world-nuclear.org/our-association/publications.aspx)
 - [World Nuclear Association's Reactor Database](https://www.world-nuclear.org/information-library/facts-and-figures/reactor-database-data/reactor-database-search.aspx?source=%7B"query"%3A%7B"match_all"%3A%7B%7D%7D%2C"size"%3A25%2C"sort"%3A%5B%7B"index.sort_name.exact"%3A%7B"order"%3A"asc"%7D%7D%5D%7D)
 
-Text based sources such as World Nuclear Association Information Library, World Nuclear News, and World Nuclear Association's Reports and Publications are converted into Vector Databases to allow the agent to search for infromtion more accurately. World Nuclear Association's Reactor Database is stored as a series of CSV files.
+Text based sources such as World Nuclear Association Information Library, World Nuclear News, and World Nuclear Association's Reports and Publications are converted into vector databases using Text-embedding-ada-002 and ChromaDB on AWS. This allows the agent to search for related information more accurately. World Nuclear Association's Reactor Database is stored as a series of CSV files and requires a different method for the agent to search.
 
 ### Large Language Model
-World Nuclear Association AI Chatbot uses GPT-4 16k. This is due to its high accuracy across many agent based benchmarks and function calling which prevents parsing errors. 
+World Nuclear Association AI Chatbot uses GPT-4 16k. This is due to its high accuracy across many agent based benchmarks, easy to implement API, low running costs, and function calling which prevents parsing errors. 
 
 ### Agent Framework
-The Agent uses a two langchain agents: 
-- A custom agent to allow detailed searches across the text based sources
-- The Langchain CSV agent to access World Nuclear Association's Reactor Database
+The Agent uses two Langchain agents: 
+- A custom multi-parameter OpenAI funcation calling agent to allow detailed searches across the text based sources 
+- The Langchain CSV agent to access World Nuclear Association's Reactor Database 
 
 ## Examples
 ### Example 1
