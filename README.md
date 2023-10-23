@@ -28,6 +28,9 @@ The Agent uses two Langchain agents:
 
 ## Examples
 ### Example 1
+
+https://github.com/LewisLee26/World-Nuclear-Association-AI-Chatbot-Documentation/assets/105315997/2e66f8d9-3aad-4348-9830-fdcda2742874
+
 **Assistant:** How can I help you?
 
 **User:** What news was there last week?
@@ -46,6 +49,8 @@ Here are some of the nuclear-related news from last week:
 Please note that the summaries are directly quoted from the articles
 
 ### Example 2
+
+https://github.com/LewisLee26/World-Nuclear-Association-AI-Chatbot-Documentation/assets/105315997/5e7c6d04-3326-4e38-bf2d-9d6cc0560a30
 
 **Assistant:** How can I help you?
 
