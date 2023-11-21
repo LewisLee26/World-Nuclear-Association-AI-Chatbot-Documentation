@@ -1,9 +1,9 @@
 # World Nuclear Association AI Chatbot Documentation
 *This is the documentation for the World Nuclear Association AI Chatbot. Databases and Code used for the project are owned by World Nuclear Association and are not available in this repository.*
 
-World Nuclear Association AI Chatbot is able to have conversations about nuclear energy and the nuclear energy industry. It stays up-to-date and accurate by drawing from the World Nuclear Association's articles, reports, and databases. World Nuclear Association AI Chatbot allows users to quickly find information, help users better understand complex nuclear energy-related topics, and access information across multiple different formats. 
+*(The full report is currently in progress.)*
 
-*The full report is currently in progress.*
+World Nuclear Association AI Chatbot is able to have conversations about nuclear energy and the nuclear energy industry. It stays up-to-date and accurate by drawing from the World Nuclear Association's articles, reports, and databases. World Nuclear Association AI Chatbot allows users to quickly find information, help users better understand complex nuclear energy-related topics, and access information across multiple different formats. 
 
 ## Methodology
 ### Overview
@@ -22,7 +22,7 @@ Text-based sources such as World Nuclear Association Information Library, World 
 World Nuclear Association AI Chatbot uses GPT-4 16k. This is due to its high accuracy across many agent-based benchmarks, easy-to-implement API, low running costs, and function calling which prevents parsing errors. 
 
 ### Agent Framework
-The Agent uses two Langchain agents: 
+The chatbot uses two Langchain agents: 
 - A custom multi-parameter OpenAI function calling agent to allow detailed searches across text-based sources 
 - The Langchain CSV agent to access World Nuclear Association's Reactor Database 
 
