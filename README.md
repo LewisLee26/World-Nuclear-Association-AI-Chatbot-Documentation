@@ -19,7 +19,7 @@ The system has access to four sources:
 Text-based sources such as World Nuclear Association Information Library, World Nuclear News, and World Nuclear Association's Reports and Publications are converted into vector databases using Text-embedding-ada-002 and ChromaDB on AWS. This allows the agent to search for related information more accurately. World Nuclear Association's Reactor Database is stored as a series of CSV files and requires a different method for the agent to search.
 
 ### Large Language Model
-World Nuclear Association AI Chatbot uses GPT-4 16k. This is due to its high accuracy across many agent-based benchmarks, easy-to-implement API, low running costs, and function calling which prevents parsing errors. 
+World Nuclear Association AI Chatbot uses GPT-4. This is due to its high accuracy across many agent-based benchmarks, easy-to-implement API, low running costs, and function calling which prevents parsing errors. 
 
 ### Agent Framework
 The chatbot uses two Langchain agents: 
