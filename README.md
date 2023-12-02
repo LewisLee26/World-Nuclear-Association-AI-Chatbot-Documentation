@@ -1,8 +1,6 @@
 # World Nuclear Association AI Chatbot Documentation
 *This is the documentation for the World Nuclear Association AI Chatbot. Databases and Code used for the project are owned by World Nuclear Association and are not available in this repository.*
 
-*(The full report is currently in progress)*
-
 World Nuclear Association AI Chatbot is able to have conversations about nuclear energy and the nuclear energy industry. It stays up-to-date and accurate by drawing from the World Nuclear Association's articles, reports, and databases. World Nuclear Association AI Chatbot allows users to quickly find information, help users better understand complex nuclear energy-related topics, and access information across multiple different formats. 
 
 ## Methodology
